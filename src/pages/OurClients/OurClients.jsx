@@ -1,6 +1,6 @@
 import talk from '../../assets/talk.svg';
-import '../Ourclients/components/clientComponent/style.clients.css';
-import ClientsPart from './components/clientComponent/clientcomponent';
+import '../OurClients/components/ClientComponent/style.clients.css';
+import ClientsPart from './components/ClientComponent/clientcomponent';
 
 
 let clients = [
