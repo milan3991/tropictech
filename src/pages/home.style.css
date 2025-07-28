@@ -3,8 +3,8 @@
 .sectionone_wrapper {
     display: flex;
     width: 100%;
-    max-width: 1500px;
-    margin-top: 30px;
+    max-width: 1350px;
+    margin-top: 5px;
     align-items: center;
     gap: 100px;
     height: 100vh;
@@ -63,7 +63,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1350px;
     flex: 1;
 
 }
@@ -95,14 +95,15 @@
 .sectionfive_wrapper {
     display: flex;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1350px;
     align-items: center;
     justify-content: center;
     background-image: url(../assets/sectionfivebcg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 100vh;
+    margin-top: 10px;
 }
 
 .sectionfive_content {
