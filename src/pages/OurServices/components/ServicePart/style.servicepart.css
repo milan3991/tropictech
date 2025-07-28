@@ -6,6 +6,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .service_image {
@@ -64,8 +65,33 @@
 }
 
 @media screen and (max-width: 1350px) {
+    .services_wrapper {
+        width: 95%;
+        max-width: 1350px;
+    }
+   
     .service_part {
         max-width: 320px;
+    }
+    .service_part h3 {
+        font-size: 25px;
+        max-width: 350px;
+    }
+    
+    .heading_services {
+        font-size: 58px;
+    }
+    
+    .heading_service {
+        font-size: 30px;
+        color: #12CBC4;
+        font-weight: normal;
+    }
+    
+    
+    .services_content {
+        width: 95%;
+        max-width: 1350px;
     }
 
 }
