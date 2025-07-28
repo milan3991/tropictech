@@ -1,0 +1,163 @@
+.contact_wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 30px;
+    align-items: center;
+    height: 100vh;
+    gap: 200px;
+    color: white;
+    flex: 1;
+
+}
+
+.contact_left_side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact_left_side h1,h2 {
+    color: #12CBC4;
+    font-weight: normal;
+}
+
+.contact_button {
+        padding: 10px 30px;
+    width: 100%;
+    max-width: 300px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid #12CBC4;
+    font-size: 20px;
+    color: #12CBC4;
+}
+
+.contactheading {
+    font-size: 57px;
+    font-weight: normal;
+}
+
+.socialnetworks_img {
+    display: flex;
+    gap: 20px;
+}
+
+.social {
+    width: 50px;
+}
+
+@media screen and (max-width: 1350px) {
+    .contact_wrapper {
+        width: 95%;
+        max-width: 1200px;
+        gap: 50px;
+        flex: 1;
+        justify-content: center;
+    
+    }
+    
+    .contact_left_side {
+        max-width: 500px;
+    }
+
+}
+
+
+@media screen and (max-width: 1100px) {
+    .contact_wrapper {
+        width: 95%;
+        max-width: 1000px;
+    
+    }
+    
+    .contact_left_side {
+        max-width: 400px;
+    }
+       
+
+    
+    .contactheading {
+        font-size: 47px;
+    }
+    
+    .socialnetworks_img {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .social {
+        width: 40px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .contact_wrapper {
+        width: 95%;
+        max-width: 800px;
+    
+    }
+    
+    .contact_left_side {
+        max-width: 300px;
+    }
+    .contact_left_side  h2{
+        font-size: 15px;
+    }
+    .contact_left_side  h3{
+        font-size: 15px;
+    }
+
+    
+    .contactheading {
+        font-size: 37px;
+    }
+    
+    .socialnetworks_img {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .social {
+        width: 30px;
+    }
+    .contact_button {
+    padding: 5px 20px;
+    max-width: 200px;
+    font-size: 15px;
+}
+}
+
+
+@media screen and (max-width: 650px) {
+    .contact_wrapper {
+        flex-wrap: wrap;    
+    }
+    .contact_left_side {
+        max-width: 500px;
+    }
+    .contact_left_side  h2{
+        font-size: 25px;
+    }
+    .contact_left_side  h3{
+        font-size: 25px;
+    }
+    
+    .contactheading {
+        font-size: 47px;
+    }
+    
+   
+    
+    .social {
+        width: 30px;
+    }
+    .contact_button {
+    padding: 5px 20px;
+    max-width: 200px;
+    font-size: 15px;
+}
+
+}

@@ -1,4 +1,5 @@
 import './App.css'
+import Contact from './pages/Contact/Contact'
 import OurClients from './pages/OurClients/OurClients'
 import OurServices from './pages/OurServices/OurServices'
 import OurWorks from './pages/OurWorks/OurWorks'
@@ -15,6 +16,7 @@ function App() {
     <OurWorks/>
     <SectionFive/>
     <OurClients/>
+    <Contact/>
     </>
   )
 }
